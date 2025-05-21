@@ -8,9 +8,9 @@ const blog = () => {
   console.log(allBlogs);
   return (
     <main>
-      <HomeCoverSection blogs={allBlogs} />
+      {/* <HomeCoverSection blogs={allBlogs} />
       <FeaturedPosts blogs={allBlogs} />
-      <RecentPosts blogs={allBlogs} /> 
+      <RecentPosts blogs={allBlogs} />  */}
     </main>
   );
 };

@@ -130,7 +130,7 @@ const NavBar = () => {
             <LinkedInIcon />
           </motion.a>
 
-          <motion.a
+          {/* <motion.a
             href="https://www.pinterest.com/"
             target={"_blank"}
             whileHover={{ y: -2 }}
@@ -148,7 +148,7 @@ const NavBar = () => {
             className="w-6 mx-3"
           >
             <DribbbleIcon />
-          </motion.a>
+          </motion.a> */}
 
           <button
             onClick={() => setMode(mode === "light" ? "dark" : "light")}
@@ -193,12 +193,12 @@ const NavBar = () => {
               className=""
               toggle={handleClick}
             />
-            <CustomMobileLink
+            {/* <CustomMobileLink
               href="/blog"
               title="Blog"
               className=""
               toggle={handleClick}
-            />
+            /> */}
           </nav>
 
           <nav className="flex items-center justify-center flex-wrap mt-2">
@@ -232,7 +232,7 @@ const NavBar = () => {
               <LinkedInIcon />
             </motion.a>
 
-            <motion.a
+            {/* <motion.a
               href="https://www.pinterest.com/"
               target={"_blank"}
               whileHover={{ y: -2 }}
@@ -250,7 +250,7 @@ const NavBar = () => {
               className="w-6 ml-3 mobile:mx-1"
             >
               <DribbbleIcon />
-            </motion.a>
+            </motion.a> */}
 
             <button
               onClick={() => setMode(mode === "light" ? "dark" : "light")}
