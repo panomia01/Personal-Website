@@ -192,7 +192,7 @@ const projects = () => {
 
       <TransitionEffect />
 
-      <main className="w-full mb-16 laptop:pt-2 flex flex-col items-center justify-center text-dark dark:text-light mobile:p-5">
+      <main className="w-full mb-0 laptop:pt-2 flex flex-col items-center justify-center text-dark dark:text-light mobile:p-5">
         <Layout className="pt-[20px]">
           {/* <AnimatedText
             text="Work Hard, Play Hard!"
@@ -205,8 +205,8 @@ const projects = () => {
                 title="Personal Web Application "
                 img={logo}
                 summary="A personal web application using React, Tailwind CSS, and React Router. This project embodies my deep understanding and expertise in these technologies"
-                link="/"
-                github="/"
+                link="https://zhanwen.netlify.app/"
+                github="https://github.com/panomia01/Personal-Website"
                 type="Feature Project"
               />
             </div>
